@@ -33,12 +33,28 @@ verisini güncelleyeceğimiz tablo , set ile güncellenecek sütunlar */
  -DDL (DATA DEFINITION LANGUAGE) ==> (CREATE , ALTER , DROP)
  -DML (DATA MANIPULATION LANGUAGE) ==> (INSERT , DELETE , UPDATE)
  -DCL (DATA CONTROL LANGUAGE) ==> (GRANT , REVOKE )
+                    
+    
  -TCL (TRANSITON CONTROL LANGUAGE) ==> (COMMIT, ROLLBACK, SAVE POINT) */
 
 INSERT INTO customers (customer_id , first_name , last_name)
                     values(1 , "ROBERT" , "CURSOR"),
                           (2 , "JULIA" , "LADY"),
                           (3 , "JACK" , "MORTGEN");
+                   
+/*CONSTRAINT EXAMPLES
+  We can limit the type of data that will go into a table with constraint*/
+                    
+CREATE TABLE employee (emp_id INT NOT NULL,
+                       first_name TEXT,
+                       salary INT,
+                       gender TEXT);
+                    
+                    
+CREATE TABLE orders (order_id INT P.K , 
+                     customer_id INT FOREIGN KEY 
+                     
+                    
                     
                     
                     
