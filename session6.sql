@@ -29,4 +29,16 @@ UPDATE author SET last_name = "ANAR"  , age = 33 WHERE first_name LIKE ("%z") RE
 /* Update yaparken mutlaka where ile nerenin güncelleneceğini belirtmek gerek 
 verisini güncelleyeceğimiz tablo , set ile güncellenecek sütunlar */  
                     
- 
+/* SQL STATEMENTS
+ -DDL (DATA DEFINITION LANGUAGE) ==> (CREATE , ALTER , DROP)
+ -DML (DATA MANIPULATION LANGUAGE) ==> (INSERT , DELETE , UPDATE)
+ -DCL (DATA CONTROL LANGUAGE) ==> (GRANT , REVOKE )
+ -TCL (TRANSITON CONTROL LANGUAGE) ==> (COMMIT, ROLLBACK, SAVE POINT) */
+
+INSERT INTO customers (customer_id , first_name , last_name)
+                    values(1 , "ROBERT" , "CURSOR"),
+                          (2 , "JULIA" , "LADY"),
+                          (3 , "JACK" , "MORTGEN");
+                    
+                    
+                    
