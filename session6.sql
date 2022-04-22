@@ -50,9 +50,7 @@ CREATE TABLE employee (emp_id INT NOT NULL,
                        salary INT,
                        gender TEXT);
                     
-                    
-CREATE TABLE orders (order_id INT P.K , 
-                     customer_id INT FOREIGN KEY 
+               
                      
                     
                     
