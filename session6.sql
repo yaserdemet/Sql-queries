@@ -50,6 +50,19 @@ CREATE TABLE employee (emp_id INT NOT NULL,
                        salary INT,
                        gender TEXT);
                     
+                    
+/*AGGREGATE FUNCTIONS*/
+
+SELECT COUNT first_name FROM customer;
+
+SELECT COUNT(DISTINCT composer) AS distinct_composer from customer;
+                    
+SELECT MIN(duration) AS min_duration FROM tracks;
+                    
+SELECT ROUND(SUM(total) AS total_amount FROM singer;
+             
+                    
+                    
                
                      
                     
